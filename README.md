@@ -1,25 +1,21 @@
-Quote Generator
-This project is a simple Quote Generator that fetches a list of quotes from an API and displays a new quote each time the "New Quote" button is clicked. The project is built using HTML, CSS, and JavaScript to create an interactive and visually appealing interface.
+JobApplicationsTracker
+Description: JobApplicationsTracker is a dynamic tool for managing and tracking job applications through various stages. This project enables users to organize applications into categories like Add Jobs, Rejected Jobs, In Progress Jobs, and All Jobs Applied. Built with React, C#, and PostgreSQL on AWS RDS, the application provides a seamless and efficient experience for users to monitor their job search progress.
 
-Features
-Random Quote Display: Retrieves a random quote from a list of quotes fetched via a REST API and displays it on the page.
-API Integration: Uses a REST API to get an array of quotes, each containing a quote text and author.
-Interactive Button: A "New Quote" button that, when clicked, shows a different random quote from the fetched list.
-Responsive Design: Styled with CSS to ensure a clean and responsive interface on various screen sizes.
-Technologies Used
-HTML: Provides the structure of the application.
-CSS: Used for styling and enhancing the visual layout.
-JavaScript: For accessing the API and handling the display of random quotes.
-REST API: Fetches quote data, which is stored in an array and accessed by the application.
-Getting Started
-To run the project locally:
+Features:
 
-Clone the repository to your local machine.
-Open the index.html file in a web browser.
-Click the "New Quote" button to view a random quote.
-How It Works
-When the page loads, the JavaScript code fetches a list of quotes from an API.
-The list of quotes is stored in an array, apiQuotes.
-When the "New Quote" button is clicked, the app selects a random quote from apiQuotes and displays it on the screen.
+Job Status Tracking: Allows users to categorize applications based on current status, providing a clear overview of the job search journey.
+Microservices Architecture: Utilizes a microservices approach for modular functionality and scalability.
+Design Patterns: Implements Factory and Repository patterns for optimized data handling and code reusability.
+Responsive Interface: Developed with React for a user-friendly interface adaptable to various screen sizes.
+Technologies Used:
 
-[Live Demo](https://gmalik-dev.github.io/Quote-Generator)
+React: Powers the frontend for a dynamic, interactive user experience.
+C#: Backend logic for managing application states and interactions.
+PostgreSQL on AWS RDS: Database for secure, scalable storage of job application data.
+Getting Started: To run the project locally:
+
+Clone the repository.
+Set up PostgreSQL on AWS RDS.
+Run the backend using .NET and the frontend with React to start tracking your job applications.
+
+[Live Demo](https://gmalik-dev.github.io/JobTracker/)
