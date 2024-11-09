@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Applications Form Table</title>
+    <link rel="stylesheet" href="./styles/addjobs.css" />
+    <style>
+      /* Basic styling for table */
+    </style>
+  </head>
+  <body>
+    <div class="center-container">
+      <button onclick="navigateTo('index.html')">Home</button>
+      <h1 class="centered-title">Add A New Applied Job</h1>
+    </div>
+
+    <!-- Job Application Form Table -->
+    <table id="jobFormTable">
+      <tr>
+        <th>Job Id</th>
+        <td><input type="text" id="jobId" /></td>
+      </tr>
+      <tr>
+        <th>Company</th>
+        <td><input type="text" id="company" /></td>
+      </tr>
+      <tr>
+        <th>Resume</th>
+        <td><input type="file" id="resume" /></td>
+      </tr>
+      <tr>
+        <th>Date Applied</th>
+        <td><input type="date" id="dateApplied" /></td>
+      </tr>
+      <tr>
+        <th>Reference</th>
+        <td><input type="checkbox" id="reference" /></td>
+      </tr>
+      <tr>
+        <th>Job Description</th>
+        <td><input type="text" id="jobDescription" /></td>
+      </tr>
+      <tr>
+        <th>Salary Range</th>
+        <td><input type="text" id="salaryRange" /></td>
+      </tr>
+      <tr>
+        <th>Type</th>
+        <td>
+          <select id="type">
+            <option value="backend">Backend</option>
+            <option value="full-stack">Full-Stack</option>
+            <option value="frontend">Frontend</option>
+          </select>
+        </td>
+      </tr>
+    </table>
+    <div class="button-container">
+      <button onclick="saveJob()" class="save-button">Save</button>
+    </div>
+    <script src="./scripts/addnewjob.js"></script>
+  </body>
+</html>

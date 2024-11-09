@@ -1,0 +1,54 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    width: 20%;
+}
+td {
+    width: 80%;
+}
+
+.center-container {
+    text-align: center; /* Center child elements horizontally */
+    margin-top: 20px; /* Add some spacing from the top */
+}
+
+.centered-title {
+    display: inline-block; /* Keep border close to text */
+    font-size: 24px;
+    color: #5f1515;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+/* Button styling */
+.form-container button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* Style for the Save button */
+  .save-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
